@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="https://hiltondesignblog.files.wordpress.com/2016/09/mcdonalds-logo-icon-png-free.png?w=300&h=300&crop=1" type="image/x-icon">
+    <title>McDonald's&reg;India - Delivering Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@900&family=Cormorant+Garamond&family=Dancing+Script&family=Fira+Sans:wght@300&family=Flow+Circular&family=Fredoka+One&family=Inter:wght@200&family=Kanit:ital,wght@0,900;1,700;1,900&family=Libre+Baskerville&family=Lobster&family=Manjari&family=Montserrat+Alternates:wght@300family=Hind:wght@700&family=Mukta:wght@200&family=Open+Sans:wght@300&family=Passions+Conflict&family=Poppins:wght@200;300;700&family=Raleway:wght@300&family=Righteous&family=Rubik:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+    <body  onload="myfunction()">
+     <!-- ?     loading stats -->
+
+<div id="loading"></div>
+
+<!-- ?       loading ends -->
+    <div id="navbar">
+        <a href="#default" id="logo"><img id="mclogo" src="img20.PNG"></a>
+        <div id="navbar-right">
+            <!-- <a class="active" href="#aboutus">Menu</a> -->
+            <a href="#menu">Menu</a>
+            <a href="#happy-meal">Happy Meal</a>
+            <a href="#restaurant">Restaurant</a>
+            <a href="#McDelivery">McDelivery</a>
+            <a href="#News">News</a>
+            <a href="https://mcdindia.com/birthday-celebrations/">Birthday Party</a>
+        </div>
+    </div>
+    <div class="slider-container">
+        <!-- <div class="slideshow-container">
+
+            <div class="mySlides">
+              <p class="strokeme">Meet Our Brand<br>Ambassador</p>
+              <p style="margin-left: -20px; margin-top: -50px; text-align: left; color: #db0007;">Superstar<br>Kartik Aryan!</p> -->
+
+              <!-- <p class="author">- John Keats</p> -->
+            <!-- </div>
+            
+            <div class="mySlides">
+              <p class="strokeme">NEW CHICKEN<BR>McWINGS</p>
+                <p style="margin-left: -20px; margin-top: -50px; text-align: left; color: #db0007;">Superstar<br>Kartik Aryan!</p> -->
+
+              <!-- <p class="author">- Ernest Hemingway</p> -->
+            <!-- </div>
+            
+            <div class="mySlides">
+              <p class="strokeme">Veg Surprise</p>
+              <p style="margin-left: -20px; margin-top: -50px; text-align: left; color: #db0007;">Your Favourite<br>Is Back</p> -->
+
+              <!-- <p class="author">- Thomas A. Edison</p> -->
+            <!-- </div>
+            
+            <a class="prev" onclick="plusSlides(-1)"></a>
+            <a class="next" onclick="plusSlides(1)"></a>
+            
+            </div>
+            
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div> -->
+            <div id="slideshow" style="margin-left: -550px; background-color: #fcbd01;height: 625px;" >
+                <div class="slide-wrapper">
+                  <div class="slide" ><p class="strokeme1" style="margin-left: 100px; margin-top: 200px;">New Chicken<br>McWings®</p>
+                    <p style="margin-left: 50px; margin-top: -30px; text-align: left; color: #db0007;">Lip-smacking<br>Chilli & Lemon<br>flavour</p></div>
+                  <div class="slide" > <p class="strokeme1" style="margin-left: 70px; margin-top: 200px;">Veg Surprise</p>
+                    <p style="margin-left: 20px; margin-top: -50px; text-align: left; color: #db0007;">Your favourite<br>is back!</p></div>
+                  <div class="slide"><p class="strokeme1" style="margin-left: 150px; margin-top: 200px;">Meet our Brand<br>Ambassador</p>
+                    <p style="margin-left: 100px; margin-top: -50px; text-align: left; color: #db0007;">Superstar<br>Kartik Aryan!</p></div>
+                  <div class="slide" ><p class="strokeme1" style="margin-left: 150px; margin-top: 200px;"> App Karo Save<br>Karo</p>
+                    <p style="margin-left: 100px; margin-top: -50px; text-align: left; color: #db0007;">Download<br>McDonald’s App</p></div>
+                  <!-- <div class="slide"><h1 class="slide-number">5</h1></div> -->
+                </div>
+              </div>
+            <!-- second slide -->
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                  <div class="slide" ><img src="imgchicken.PNG" style="position: relative; top: 0px; height: 625px;"></div>
+                  <div class="slide" ><img src="imgburg.PNG" style="position: relative; top: 0px; height: 625px; "></div>
+                  <div class="slide"><img src="imgkartik1.PNG" style="position: relative; top: 0px; height: 625px;"></div>
+                  <div class="slide" ><video controls  loop src="mcd-video-new.mp4" style="position: relative; top: 0px; height: 625px;"></div>
+                  <!-- <div class="slide"><h1 class="slide-number">5</h1></div> -->
+                </div>
+              </div>
+              
+             <div class="vertical1"></div>
+             <div class="vertical2"></div>
+             <div class="vertical3"></div>
+             <div class="vertical4"></div>
+             <div class="vertical5"></div>
+    </div>
+    <img src="img26.PNG" alt="" style="position: absolute; top: 601px; left: 0px;">
+   <div class="mc-big-logo">
+       <img src="imgbiglogo.png" alt="Mc Logo">
+   </div>
+   <div id="menu" class="collections" style="position: relative; z-index:99; color: #db0007;">
+    
+    <div class="collection-nav"data-aos="fade-right">
+            <ul>
+                <li><button  onclick="toggleVisibility('Menu1');">BURGERS & WRAPS</button></li>
+                <li><button  onclick="toggleVisibility('Menu2');">SNACKS & SIDES</button></li>
+                <li><button  onclick="toggleVisibility('Menu3');">DESSERTS</button></li>
+                <li><button  onclick="toggleVisibility('Menu4');">BEVERAGES</button></li>
+               
+            </ul>
+        </div>
+        <div class="boots-content" id="Menu1" >
+            <div class="chees-head" data-aos="fade-left">
+                <h1>McAloo Tikki Burger®</h1>
+                <h3>The one that never goes out of f(l)avour.</h3>
+                <p>A golden fried vegetarian patty prepared with peas, potato and infused with aromatic spices. Clubbed with sliced tomatoes, shredded red onion, and tangy tomato mayonnaise. Served in a warm toasted bun.</p>
+                <span><b>Serving Size:</b>146g</span>
+                <h4><b>Allergen Warning! Contains:</b></h4>
+                <p>Cereal containing gluten, Milk, Soya</p>
+                
+            </div>
+            
+        <div class="reddiv" data-aos="fade-right">
+            <div>
+            <ul>
+                <li>Energy  &nbsp; &nbsp;|</li>
+                <li>Protein  &nbsp; &nbsp;|</li>
+                <li>Total Fat &nbsp; &nbsp;|</li>
+                <li>Sat Fat  &nbsp; &nbsp;|</li>
+                <li>Trans Fat </li>
+            </ul>
+            <ul class="gram">
+                <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                <li><b>0.14g  &nbsp; &nbsp; </b></li>
+            </ul>
+        </div>
+        <div class="second-gram">
+            <ul>
+                <li>Energy  &nbsp; &nbsp;|</li>
+                <li>Protein  &nbsp; &nbsp;|</li>
+                <li>Total Fat &nbsp; &nbsp;|</li>
+                <li>Sat Fat  &nbsp; &nbsp;|</li>
+                <li>Trans Fat </li>
+            </ul>
+            <ul class="gram">
+                <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                <li><b>0.14g  &nbsp; &nbsp;</b> </li>
+            </ul>
+        </div>
+        </div>
+       <img src="img2.PNG" alt="" data-aos="fade-up-right" style="margin-left: 900px; width: 60%; margin-top: -120px;">
+       <div class="glass" data-aos="fade-down-right">
+           <h3>Ingredients</h3>
+           <p>Regular bun crown, Tom-Mayo sauce, Sliced tomatoes, Shredded onion, Aloo tikki patty, Regular bun heel</p>
+       </div>
+       <div class="last-con6"data-aos="zoom-in">
+        <img src="img2.png">
+        <div class="last-con-text6">
+        <span style="color: black;">McAloo Tikki<br> Burger</span>
+        </div>
+        </div>
+        <div class="last-con6" style="margin-left: 750px;"data-aos="zoom-in">
+            <img src="img3.png">
+            <div class="last-con-text6">
+            <span style="color: black;">McAloo Tikki<br> Burger</span>
+            </div>
+            </div>
+            <div class="last-con6" style="margin-left: 980px;"data-aos="zoom-in">
+                <img src="img4.png">
+                <div class="last-con-text6">
+                <span style="color: black;">McAloo Tikki<br> Burger</span>
+                </div>
+                </div>
+        </div>
+            
+            <!-- !testimo 1 -->
+
+             <!-- menu1 ends -->
+             <div class="boots-content3" id="Menu2" style="display:none;">
+                <div class="chees-head" data-aos="fade-left">
+                    <h1>Cheesy Fries</h1>
+                    <h3>Hi, it’s cheese on this side!</h3>
+                    <p>The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.</p>
+                    <span><b>Serving Size:</b>150g</span>
+                    <h4><b>Allergen Warning! Contains:</b></h4>
+                    <p>Milk</p>
+                    
+                </div>
+                
+            <div class="reddiv" data-aos="fade-right">
+                <div>
+                <ul>
+                    <li>Energy  &nbsp; &nbsp;|</li>
+                    <li>Protein  &nbsp; &nbsp;|</li>
+                    <li>Total Fat &nbsp; &nbsp;|</li>
+                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                    <li>Trans Fat </li>
+                </ul>
+                <ul class="gram">
+                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                    <li><b>0.14g  &nbsp; &nbsp; </b></li>
+                </ul>
+            </div>
+            <div class="second-gram">
+                <ul>
+                    <li>Energy  &nbsp; &nbsp;|</li>
+                    <li>Protein  &nbsp; &nbsp;|</li>
+                    <li>Total Fat &nbsp; &nbsp;|</li>
+                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                    <li>Trans Fat </li>
+                </ul>
+                <ul class="gram">
+                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                    <li><b>0.14g  &nbsp; &nbsp;</b> </li>
+                </ul>
+            </div>
+            </div>
+           <img src="imgcheesfries.png" alt=""  data-aos="fade-up-right"style="margin-left: 900px; width: 60%; margin-top: -120px;">
+           <div class="glass" data-aos="fade-down-right">
+               <h3>Ingredients</h3>
+               <p>Regular bun crown, Tom-Mayo sauce, Sliced tomatoes, Shredded onion, Aloo tikki patty, Regular bun heel</p>
+           </div>
+           <div class="last-con6"data-aos="zoom-in">
+            <img src="img5.png">
+            <div class="last-con-text6">
+            <span style="color: black;">McAloo Tikki<br> Burger</span>
+            </div>
+            </div>
+            <div class="last-con6" style="margin-left: 750px;"data-aos="zoom-in">
+                <img src="img6.png">
+                <div class="last-con-text6">
+                <span style="color: black;">McAloo Tikki<br> Burger</span>
+                </div>
+                </div>
+                <div class="last-con6" style="margin-left: 980px;"data-aos="zoom-in">
+                    <img src="img7.png">
+                    <div class="last-con-text6">
+                    <span style="color: black;">McAloo Tikki<br> Burger</span>
+                    </div>
+                    </div>
+            </div>
+   
+            <!--menu2 ends-->
+            <!--menu3 starts-->
+            
+            <div class="boots-content3" id="Menu3" style="display:none;">
+                <div class="chees-head" data-aos="fade-left">
+                    <h1>McFlurry (Oreo)®</h1>
+                    <h3>Burgers aren't the only things we're good at.</h3>
+                    <p>Milk-based frozen dessert with oreo cookies.</p>
+                    <span><b>Serving Size:</b>86.79g | 147.38g</span>
+                    <h4><b>Allergen Warning! Contains:</b></h4>
+                    <p>Cereal containing gluten, Milk, Soya, Sulphites</p>
+                    
+                </div>
+                
+            <div class="reddiv" data-aos="fade-right">
+                <div>
+                <ul>
+                    <li>Energy  &nbsp; &nbsp;|</li>
+                    <li>Protein  &nbsp; &nbsp;|</li>
+                    <li>Total Fat &nbsp; &nbsp;|</li>
+                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                    <li>Trans Fat </li>
+                </ul>
+                <ul class="gram">
+                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                    <li><b>0.14g  &nbsp; &nbsp; </b></li>
+                </ul>
+            </div>
+            <div class="second-gram">
+                <ul>
+                    <li>Energy  &nbsp; &nbsp;|</li>
+                    <li>Protein  &nbsp; &nbsp;|</li>
+                    <li>Total Fat &nbsp; &nbsp;|</li>
+                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                    <li>Trans Fat </li>
+                </ul>
+                <ul class="gram">
+                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                    <li><b>0.14g  &nbsp; &nbsp;</b> </li>
+                </ul>
+            </div>
+            </div>
+           <img src="img-flurry.png" alt="" data-aos="fade-up-right" style="margin-left: 1100px; width: 30%; margin-top: -120px;">
+           <div class="glass" data-aos="fade-down-right">
+               <h3>Ingredients</h3>
+               <p>Regular bun crown, Tom-Mayo sauce, Sliced tomatoes, Shredded onion, Aloo tikki patty, Regular bun heel</p>
+           </div>
+           <div class="last-con6"data-aos="zoom-in">
+            <img src="img8.png">
+            <div class="last-con-text6">
+            <span style="color: black;">McAloo Tikki<br> Burger</span>
+            </div>
+            </div>
+            <div class="last-con6" style="margin-left: 750px;"data-aos="zoom-in">
+                <img src="img9.png">
+                <div class="last-con-text6">
+                <span style="color: black;">McAloo Tikki<br> Burger</span>
+                </div>
+                </div>
+                <div class="last-con6" style="margin-left: 980px;"data-aos="zoom-in">
+                    <img src="img10.png">
+                    <div class="last-con-text6">
+                    <span style="color: black;">McAloo Tikki<br> Burger</span>
+                    </div>
+                    </div>
+            </div>
+             
+                             <!--menu2 ends-->
+                             <!--menu3 starts-->
+                             
+                             <div class="boots-content3" id="Menu4" style="display: none;">
+                             
+                                <div class="chees-head" data-aos="fade-left">
+                                    <h1>Black Coffee®</h1>
+                                    <h3>Perfectly brewed for any time of the day.</h3>
+                                    <p>A golden fried vegetarian patty prepared with peas, potato and infused with aromatic spices. Clubbed with sliced tomatoes, shredded red onion, and tangy tomato mayonnaise. Served in a warm toasted bun.</p>
+                                    <span><b>Serving Size:</b>200ml</span>
+                                    <h4><b>Allergen Warning! Contains:</b></h4>
+                                    <p>No Allergens</p>
+                                    
+                                </div>
+                                
+                            <div class="reddiv" data-aos="fade-right">
+                                <div>
+                                <ul>
+                                    <li>Energy  &nbsp; &nbsp;|</li>
+                                    <li>Protein  &nbsp; &nbsp;|</li>
+                                    <li>Total Fat &nbsp; &nbsp;|</li>
+                                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                                    <li>Trans Fat </li>
+                                </ul>
+                                <ul class="gram">
+                                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                                    <li><b>0.14g  &nbsp; &nbsp; </b></li>
+                                </ul>
+                            </div>
+                            <div class="second-gram">
+                                <ul>
+                                    <li>Energy  &nbsp; &nbsp;|</li>
+                                    <li>Protein  &nbsp; &nbsp;|</li>
+                                    <li>Total Fat &nbsp; &nbsp;|</li>
+                                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                                    <li>Trans Fat </li>
+                                </ul>
+                                <ul class="gram">
+                                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                                    <li><b>0.14g  &nbsp; &nbsp;</b> </li>
+                                </ul>
+                            </div>
+                            </div>
+                           <img src="img-coffee.png" alt=""  data-aos="fade-up-right"style="margin-left: 1100px; width: 30%; margin-top: -120px;">
+                           <div class="glass" data-aos="fade-down-right">
+                               <h3>Ingredients</h3>
+                               <p>Regular bun crown, Tom-Mayo sauce, Sliced tomatoes, Shredded onion, Aloo tikki patty, Regular bun heel</p>
+                           </div>
+                           <div class="last-con6"  data-aos="zoom-in">
+                            <img src="img11.png">
+                            <div class="last-con-text6">
+                            <span style="color: black;">McAloo Tikki<br> Burger</span>
+                            </div>
+                            </div>
+                            <div class="last-con6" style="margin-left: 750px;" data-aos="zoom-in">
+                                <img src="img12.png">
+                                <div class="last-con-text6">
+                                <span style="color: black;">McAloo Tikki<br> Burger</span>
+                                </div>
+                                </div>
+                                <div class="last-con6" style="margin-left: 980px;" data-aos="zoom-in">
+                                    <img src="img13.png">
+                                    <div class="last-con-text6">
+                                    <span style="color: black;">McAloo Tikki<br> Burger</span>
+                                    </div>
+                                    </div>
+                            </div>
+                             <!-- menu 5 starts -->
+                             <div class="boots-content" id="Menu5" style="display:none;">
+                                <div class="chees-head" data-aos="fade-left">
+                                    <h1>McAloo Tikki Burger®</h1>
+                                    <h3>The one that never goes out of f(l)avour.</h3>
+                                    <p>A golden fried vegetarian patty prepared with peas, potato and infused with aromatic spices. Clubbed with sliced tomatoes, shredded red onion, and tangy tomato mayonnaise. Served in a warm toasted bun.</p>
+                                    <span><b>Serving Size:</b>146g</span>
+                                    <h4><b>Allergen Warning! Contains:</b></h4>
+                                    <p>Cereal containing gluten, Milk, Soya</p>
+                                    
+                                </div>
+                                
+                            <div class="reddiv" data-aos="fade-right">
+                                <div>
+                                <ul>
+                                    <li>Energy  &nbsp; &nbsp;|</li>
+                                    <li>Protein  &nbsp; &nbsp;|</li>
+                                    <li>Total Fat &nbsp; &nbsp;|</li>
+                                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                                    <li>Trans Fat </li>
+                                </ul>
+                                <ul class="gram">
+                                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                                    <li><b>0.14g  &nbsp; &nbsp; </b></li>
+                                </ul>
+                            </div>
+                            <div class="second-gram">
+                                <ul>
+                                    <li>Energy  &nbsp; &nbsp;|</li>
+                                    <li>Protein  &nbsp; &nbsp;|</li>
+                                    <li>Total Fat &nbsp; &nbsp;|</li>
+                                    <li>Sat Fat  &nbsp; &nbsp;|</li>
+                                    <li>Trans Fat </li>
+                                </ul>
+                                <ul class="gram">
+                                    <li><b>313.44kCal  &nbsp; &nbsp;</b></li>
+                                    <li><b>5.71g   &nbsp; &nbsp;</b></li>
+                                    <li><b>14.95g   &nbsp; &nbsp;</b></li>
+                                    <li><b>3.73g  &nbsp; &nbsp; </b></li>
+                                    <li><b>0.14g  &nbsp; &nbsp;</b> </li>
+                                </ul>
+                            </div>
+                            </div>
+                           <img src="img2.PNG" alt=""  data-aos="fade-up-right"style="margin-left: 900px; width: 60%; margin-top: -120px;">
+                           <div class="glass" data-aos="fade-down-right">
+                               <h3>Ingredients</h3>
+                               <p>Regular bun crown, Tom-Mayo sauce, Sliced tomatoes, Shredded onion, Aloo tikki patty, Regular bun heel</p>
+                           </div>
+                           <!-- <div class="last-con6">
+                            <img src="img2.png">
+                            <div class="last-con-text6">
+                            <span style="color: black;">McAloo Tikki<br> Burger</span>
+                            </div>
+                            </div>
+                            <div class="last-con6">
+                                <img src="img2.png">
+                                <div class="last-con-text6">
+                                <span style="color: black;">McAloo Tikki<br> Burger</span>
+                                </div>
+                                </div>
+                                <div class="last-con6" style="margin-left: 750px;">
+                                    <img src="img3.png">
+                                    <div class="last-con-text6">
+                                    <span style="color: black;">McAloo Tikki<br> Burger</span>
+                                    </div>
+                                    </div>
+                                    <div class="last-con6" style="margin-left: 980px;">
+                                        <img src="img4.png">
+                                        <div class="last-con-text6">
+                                        <span style="color: black;">McAloo Tikki<br> Burger</span>
+                                        </div>
+                                        </div> -->
+                                        
+                 </div> 
+    <div class="download" data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
+ <h2>DOWNLOAD NUTRITIONAL INFO</h2>
+    </div>
+
+<div class="happy-bg" id="happy-meal" >
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 150px;z-index: -1; ">
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 250px;z-index: -1; ">
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 350px; z-index: -1;">
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 450px; z-index: -1;">
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 550px; z-index: -1;">
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 650px; z-index: -1;">
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 750px; z-index: -1;">
+    <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 850px; z-index: -1;">
+    <img src="img21.PNG" alt="" style="position: absolute; width: 12%; margin-left: 100px; margin-top: 200px;">
+    <div class="video">
+    <video src="app-download.mp4" autoplay muted loop style="position: absolute;  margin-left: 100px; margin-top: 400px; width: 15% ; border-radius: 10px; box-shadow: 5px 5px 2px 2px #d1d0d0;"></video>
+    <h2>DOWNLOAD APP FROM</h2>
+    <img src="img-playstore.png" alt="">
+    </div>
+    <div class="happy">
+        <img src="img14.png" alt="">
+        <h2>Discover<br> your kid’s<br> <span style="color: #ffbc0d;">musical talent</span></h2>
+    </div>
+    <div class="happy" style="margin-left: 750px; margin-top: -320px;" >
+        <img src="img15.png" alt="">
+        <h2 style="width: 300px; left: -30px;"><span  style="color: #ffbc0d;">Create</span><br> happy moments<br> <span style="color: #ffbc0d;">with your</span> little ones</h2>
+    </div>
+    <div class="happy" style="margin-left: 1000px; margin-top: -320px;">
+        <img src="img16.png" alt="">
+        <h2 style="width: 300px; left: -30px;"><span>Explore our</span><br> animated books<br> <span style="color: #ffbc0d;">with your kid</span></h2>
+        <div class="happy" style="margin-left: -380px; margin-top: -200px;" >
+            <img src="img18.png" alt="">
+            <h2 style="width: 300px; left: -30px;">Discover our<br> collection of<br> <span style="color: #ffbc0d;">interactive books</span> </h2>
+        </div>
+        <div class="happy" style="margin-left: -30px; margin-top: -320px;">
+            <img src="img22.png" alt="">
+            <h2 style="width: 300px; left: -30px;">Discover our<br> books as they<br> <span style="color: #ffbc0d;">come to life</span></h2>
+    </div>
+</div>
+</div>
+<div class="books">
+    <img src="img23.PNG" alt="" style="position: absolute;margin-top:137px; left: 302px;z-index: 3;">
+    <div class="book-text">
+        <img src="img24.png" alt="" style="margin-top: 100px; margin-left: 150px;">
+        <p style="color: #000;text-align: left; font-size: 45px; margin-left: 150px;">Spark kids’ curiosity<br> with Happy Meal<br> Readers</p>
+        <p style="color: #575656;text-align: left; font-size: 14px; margin-left: 150px;">Happy Meal Readers is part of McDonald’s commitment in bringing to<br> life Truly Together moments by encouraging reading as a fun family <br>activity. It is a cherished part of Happy Meal, offering a unique choice<br> of books by Cressida Cowell with every Happy Meal. The Tiny <br>Detectives who live in a bookcase are here to find answers to BIG<br> questions, looking to Spark kids’ curiosity. Meet them soon!</p>
+    </div>
+    <div class="container">
+        <div id="slide-left-container">
+          <div class="slide-left">
+            <span class="material-symbols-outlined" style="transform: rotate(-140deg); margin-top: 10px; margin-left: 10px; color: black;">
+                arrow_forward_ios
+                </span>
+          </div>
+        </div>
+        <div id="cards-container">
+          <div class="cards">
+            <div class="card">
+              <img src="img-book1.PNG" alt="Animals" style="width:100%">
+              <div class="container" >
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book2.PNG" alt="Nature" style="width:100%">
+              <div class="container">
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book3.PNG" alt="Architecture" style="width:100%">
+              <div class="container">
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book4.PNG" alt="Technology" style="width:100%">
+              <div class="container">
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book5.PNG" alt="People" style="width:100%">
+              <div class="container">
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book6.PNG" alt="Animals" style="width:100%">
+              <div class="container">
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book1.PNG" alt="Nature" style="width:100%">
+              <div class="container">
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book2.PNG" alt="Architecture" style="width:100%">
+              <div class="container">
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book3.PNG" alt="Technology" style="width:100%">
+              <div class="container">
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="img-book4.PNG" alt="People" style="width:100%">
+              <div class="container">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div id="slide-right-container">
+          <div class="slide-right">
+            <span class="material-symbols-outlined" style="transform: rotate(-45deg);  margin-top: 15px; margin-left: 19px; color: #ffffff;">
+                arrow_forward_ios
+                </span>
+          </div>
+        </div>
+    
+      </div>
+      <div class="books" id="restaurant" style="position: relative; top: -920px;background: #fff; z-index: -1; left: -320px;">
+        <img src="img27.PNG" alt="" style="position: absolute;margin-top:10px; left: 540px;z-index: 1; width: 60%;">
+        <img src="img28.PNG" alt="" style="position: absolute;margin-top:481px; left: 540px;z-index: 1; width: 60%;">
+
+        <div class="book-text"  style="position: relative; background: #ffffff; z-index: 3; width: 540px; height: 800px; top: 0px;">
+            <img src="img29.png" alt="" style="margin-top: 330px; margin-left: 150px;">
+            <p style="color: #000;text-align: left; font-size: 35px; margin-left: 170px; position: absolute;margin-top: 70px;">Select City </p>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="material-icons" style="margin-left: -50px;">location_on</i> &nbsp;Select a City <span class="material-symbols-outlined" style="font-size: 30px; margin-left: 30px; margin-top: 2px; position: absolute;">
+                    expand_more
+                    </span></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">Agra</a>
+                  <a href="#about">Allahabad</a>
+                  <a href="#contact">Lucknow</a>
+                  <a href="#contact">Raebareli</a>
+                  <a href="#contact">Mumbai</a>
+                  <a href="#contact">Delhi</a>
+                  <a href="#contact">Kanpur</a>
+                  <a href="#contact">Goa</a>
+                  <a href="#contact">Aligar</a>
+
+
+                </div>
+              </div>
+              
+        </div>
+        <div class="location-text">
+           <p>Please select a city<br> to find the nearest <br>McDonald's store.</p> 
+        </div>
+        <div class="triangle"> </div>
+          </div>
+
+      <!-- Scripts -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+</div>
+<div class="books" id="McDelivery" style="margin-top: 800px; background: #febc12;">
+    <img src="img23.PNG" alt="" style="position: absolute;margin-top:137px; left: 302px;z-index: 3;">
+    <div class="book-text">
+        <img src="img30.png" alt="" style="margin-top: 100px; margin-left: 150px;">
+        <img src="img31.png" alt="" style="margin-top: 100px; margin-left: 200px; position: absolute;">
+        <p style="color: #000;text-align: left; font-size: 45px; margin-left: 148px; margin-top: -18px;">Order for<br> Home-Delivered<br>Smiles</p>
+        <p style="color: #b69a81;text-align: left; font-size: 14px; margin-left: 150px; margin-top: -40px;">We deliver to your doorstep</p>
+        <p style="color: #575656;text-align: left; font-size: 14px; margin-left: 150px;">McDelivery allows you to experience delicious McDonald’s food from <br>the comfort of your sofa at home or cubicle in office. All orders are <br>delivered quickly and efficiently, allowing you the peace of mind to <br>know that smiles-inducing food is never too far.</p>
+        <div class="download" style="top: -15px; position: absolute; left: -700px; width: 220px;">
+            <h2 style="top: 3px; position: relative; left: 52px; font-size: 16px;">ORDER NOW</h2>
+            <p style="color: #000000;text-align: left; font-size: 14px; margin-left: 0px; margin-top: 40px;">Now also on:</p>
+            <img src="img32.PNG" alt="" style="position: absolute;margin-top:-40px; left: 100px;z-index: 3; width: 70%;">
+               </div>
+    </div>
+    <img src="img33.PNG" alt=""  style="position: absolute;margin-top:-440px; left: 1000px;z-index: 3; width: 50%;">
+      </div>
+
+      <div class="books" id="News" style="margin-top: 150px; background: #ffffff;">
+        <p style="color: #000;text-align: left; font-size: 45px; margin-top: 250px; position: relative; margin-left: 100px; width: 50%; z-index: 11;" data-aos="fade-right">News & Highlights</p>
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: -50px;z-index: 0; ">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 20px;z-index: 0; ">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 120px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 220px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 320px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 420px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 520px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 620px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 720px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 820px; z-index: 0;">
+        <img src="img-background.PNG" alt="" style="position: absolute;  margin-left: 15px;margin-top: 920px; z-index: 0;">
+        <img src="img34.PNG" alt="" style="position: absolute;  margin-left: 100px;margin-top: 20px;z-index: 11; width: 70%; ">
+        <img src="img35.PNG" alt="" style="position: absolute;  margin-left: 170px;margin-top: 100px;z-index: 11; width: 45%; ">
+          <div class="read-more" data-aos="fade-right">
+            <p class="para1" style="color: #000;text-align: left; font-size: 35px;  position: relative; top: 50px; margin-left: 50px;  z-index: 11;">McDonald’s to hire<br> 5,000 people, double <br>stores in North, East<br> India</p>
+            <p  class="para2" style="color: #db0007;text-align: left; font-size: 18px;  position: relative; top: 30px; margin-left: 50px;  z-index: 11;"><a href="https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/mcdonalds-to-hire-5000-people-double-stores-in-north-east-india/articleshow/96175698.cms" target="_blank"  style="color: #db0007;text-align: left; font-size: 18px; text-decoration: none;">Read More</a></p>
+          </div>
+          <div class="news">
+              <img src="img36.PNG" alt="" style="width: 100%;">
+              <div class="red-news" data-aos="fade-right">
+                  <p>NEWS</p>
+              </div>
+              <p style="color: #000000;text-align: left; font-size: 15px;  position: relative; top: 20px; margin-left: 20px;  z-index: 11;">McDonald’s India – North & <br>East strikes a chord with its<br> new campaign “We Get It”</p>
+              <p  class="para2" style="color: #db0007;text-align: left; font-size: 17px;  position: relative; top: 30px; margin-left: 20px;  z-index: 11;"><a href="https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/mcdonalds-to-hire-5000-people-double-stores-in-north-east-india/articleshow/96175698.cms" target="_blank"  style="color: #db0007;text-align: left; font-size: 17px; text-decoration: none;">Read More</a></p>
+          </div>
+          <div class="news" style="position: absolute; margin-top: -370px; left: 700px;">
+            <img src="img37.PNG" alt="" style="width: 100%;">
+            <div class="red-news" data-aos="fade-right">
+                <p>NEWS</p>
+            </div>
+            <p style="color: #000000;text-align: left; font-size: 15px;  position: relative; top: 20px; margin-left: 20px;  z-index: 11;">McDonald’s India – North & <br>East strikes a chord with its<br> new campaign “We Get It”</p>
+            <p  class="para2" style="color: #db0007;text-align: left; font-size: 17px;  position: relative; top: 30px; margin-left: 20px;  z-index: 11;"><a href="https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/mcdonalds-to-hire-5000-people-double-stores-in-north-east-india/articleshow/96175698.cms" target="_blank"  style="color: #db0007;text-align: left; font-size: 17px; text-decoration: none;">Read More</a></p>
+        </div>
+        <div class="news"  style="position: absolute; margin-top: -370px; left: 1000px;">
+            <img src="img38.PNG" alt="" style="width: 100%; height: 40%;">
+            <div class="red-news" data-aos="fade-right">
+                <p>NEWS</p>
+            </div>
+            <p style="color: #000000;text-align: left; font-size: 15px;  position: relative; top: 20px; margin-left: 20px;  z-index: 11;">McDonald’s India – North & <br>East strikes a chord with its<br> new campaign “We Get It”</p>
+            <p  class="para2" style="color: #db0007;text-align: left; font-size: 17px;  position: relative; top: 30px; margin-left: 20px;  z-index: 11;"><a href="https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/mcdonalds-to-hire-5000-people-double-stores-in-north-east-india/articleshow/96175698.cms" target="_blank"  style="color: #db0007;text-align: left; font-size: 17px; text-decoration: none;">Read More</a></p>
+        </div>
+         <div class="circular" data-aos="flip-down">
+             <p class="pa1">LATEST NEWS</p>
+             <p class="pa2">Kartik Aaryan becomes the face of<br> McDonald’s India</p>
+             <p class="pa2" style="font-weight: lighter;">January 20, 2023</p>
+             <hr style="margin-top: -25px; color: #696969;">
+
+             <p class="pa2" style="top:10px; positon:relative;  ">Veg Surprise Burger makes a<br> comeback to McDonald’s India</p>
+             <p class="pa2" style="font-weight: lighter; top:0px; positon:relative; ">December 1, 2022</p>
+             <hr style="margin-top: -5px; color: #696969;">
+
+             <p class="pa2" style="top:10px; positon:relative;  ">McDonald’s India Adds This<br> Classic Appetiser To Its Menu</p>
+             <p class="pa2" style="font-weight: lighter;top:0px; positon:relative;">November 15, 2022</p>
+         </div>
+        </div>
+        <div class="books" style="margin-top: 0px; background: #ebebec; height: 900px;">
+          <img src="img40.png" alt="" style="margin-top: 300px; width: 55%;height: 65%;">
+          <h2 style="color: #000;text-align: left; font-size: 50px; margin-top: -430px; position: relative; margin-left: 110px; width: 50%; z-index: 11; background: #ffc213; width: 30%;"> Special Offers<br>& News</h2>
+          <p style="color: #000;text-align: left; font-size: 17px; margin-top: -21px; position: relative; margin-left: 110px; width: 50%; z-index: 11; background: #ffc213; width: 30%;"> Subscribe now for news, promotions and <br>
+            more delivered right to your inbox.</p>
+            <input type="text">
+              <div class="download" style="top:-577px; position: relative; left: -376px; width: 180px; z-index: 111; height: 55px;">
+                <h2 style="top: 20px; position: relative; left: 50px; font-size: 16px; letter-spacing: 1px; cursor: pointer;">SUSCRIBE</h2>
+             </div>
+             <p style="color: #000;text-align: left; font-size: 17px; margin-top: -521px; position: relative; margin-left: 110px; width: 50%; z-index: 11; background: #ffc213; width: 8%;"> Follow us on:</p>	
+             <ul class="social">
+                 <li><i class="fa fa-facebook" style="font-size: 30px; color: #000;"></i></li>
+                 <li><i class="fa fa-instagram" style="font-size: 30px; color: #000;"></i></li>
+                 <li><i class="fa fa-youtube-play" style="font-size: 30px; color: #000;"></i></li>
+             </ul>
+             <img src="img44.png" alt="" style="margin-top: 39px;margin-left: -10px;">
+             <img src="img43.png" alt="" style="margin-top: -225px; position: absolute;margin-left: 200px;"data-aos="zoom-in-down">
+             <img src="img42.png" alt="" style="margin-top: -225px; position: absolute;margin-left: -85px;"data-aos="zoom-in-down">
+             <img src="img41.png" alt="" style="margin-top: -5px; position: absolute;margin-left: -410px; width: 25%;">
+             <div class="books" style="margin-top: -250px; background: #ebebec; height: 500px; left: -300px; position: relative; z-index: -1;"></div>
+        </div>
+        <hr  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" style="color: #b69a81; background: #b69a81; top:300px;height: 4px; position: relative; left: 400px; width: 1100px; z-index: 111;">
+        <img  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"src="img25.png" alt="" style="margin-top: 300px; position: absolute;margin-left: 800px; width: 5%;">
+        <p  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"style="color: #000;text-align: left; font-size: 15px; font-weight:lighter; margin-top: 321px; position: relative; margin-left: 870px;  z-index: 11; width:400px; ">© 2021-22 McDonald's. All Rights Reserved</p>
+        <p  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"style="color: #000;text-align: left; font-size: 12px; font-weight:lighter; margin-top: 0px; position: relative; margin-left: 750px;  z-index: 11; width:650px; ">Connaught Plaza Restaurants Private Limited (licensee of McDonald's in North & East India)</p>
+        <p  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"style="color: #000;text-align: left; font-size: 10px; font-weight:lighter; margin-top: 0px; position: relative; margin-left: 780px;  z-index: 11; width:650px; ">FAQ | TERMS & CONDITIONS | PRIVACY POLICY | FEEDBACK | CAREERS | CONTACT US</p>
+        <img data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"  class="mountain-logo" src="img45.png" style="margin-top: 25px; position: absolute;margin-left: 960px; width: 5%;">
+        <p data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="hidden-last" style="color: #b69a81;;text-align: left; font-size: 10px; font-weight:lighter; margin-top: 40px; position: relative; margin-left: 850px;  z-index: -1; width:650px; "><b>Made By FAUZAN ALI</b></p>
+        <p data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="hidden-last2" style="color: #b69a81;;text-align: left; font-size: 10px; font-weight:lighter;  position: relative; margin-left: 1050px;  z-index: -1; width:60px; display:none; ">With Love</p>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+<script src="index.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
